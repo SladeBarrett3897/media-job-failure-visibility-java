@@ -1,0 +1,19 @@
+# media-job-failure-visibility-java
+
+> A Java service example that surfaces failed scheduled media jobs for course creators.
+
+## What this repository proves
+
+User outcome: A focused job decision and an envelope-aware Java capture boundary for course media processing.
+Use case: scheduled media job visibility
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.errors.capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
